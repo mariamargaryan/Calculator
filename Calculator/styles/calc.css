@@ -1,0 +1,358 @@
+/*#region TAG SELECTORS*/
+* {
+	/*region BOX MODEL*/
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/*endregion BOX MODEL*/
+}
+
+body {
+	/*region BACKGROUND*/
+	background-color: fff;
+	user-select: none;
+	/*endregion BACKGROUND*/
+}
+
+button {
+	/*region BOX MODEL*/
+	height: 50px;
+	width: 60px;
+	border: 0;
+	border-radius: 5px;
+	/*endregion BOX MODEL*/
+
+	/*region TYPOGRAPHY*/
+	font-size: 25px;
+	/*endregion TYPOGRAPHY*/
+
+	/*region BACKGROUND*/
+	background: #f5f5f5;
+	/*endregion BACKGROUND*/
+}
+
+tbody button {
+	/*region BOX MODEL*/
+	height: 30px;
+	width: 36px;
+	border: 0;
+	border-radius: 5px;
+	/*endregion BOX MODEL*/
+
+	/*region TYPOGRAPHY*/
+	font-size: 17px;
+	/*endregion TYPOGRAPHY*/
+
+	/*region BACKGROUND*/
+	background: #f9f9f9;
+	/*endregion BACKGROUND*/
+}
+
+button:focus {
+	/*region BOX MODEL*/
+	outline-width: thin;
+	outline-color: #dcdcdc;
+	/*endregion BOX MODEL*/
+}
+
+button:hover:enabled {
+	/*region BACKGROUND*/
+	background: #c0c0c0;
+	/*endregion BACKGROUND*/
+}
+
+footer {
+	/*region BOX MODEL*/
+	padding: 10px;
+	/*region BOX MODEL*/
+	
+	/*region POSITION AND LAYOUT*/
+	position: absolute;
+	top: 94%;
+	left: 80%;
+	/*endregion POSITION AND LAYOUT*/
+}
+
+option {
+	/*region BOX MODEL*/
+	margin: 40px;
+	border-radius: 5px;
+	/*endregion BOX MODEL*/
+	
+	/*region TYPOGRAPHY*/
+	color: #fff;
+	/*endregion TYPOGRAPHY*/
+	
+	/*region BACKGROUND*/
+	background: #c9ba9c;
+	/*endregion BACKGROUND*/
+}
+
+table {
+	/*region BOX MODEL*/
+	border-collapse: collapse;
+	border-radius: 10px;
+	/*endregion BOX MODEL*/
+
+	/*region POSITION AND LAYOUT*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	/*endregion POSITION AND LAYOUT*/
+
+	/*region BACKGROUND*/
+	background-color: #778899;
+	/*endregion BACKGROUND*/
+
+	/*region ANIMATION*/
+	transform: translateY(-50%) translateX(-50%);
+	/*endregion ANIMATION*/
+}
+
+th, td {
+	/*region BOX MODEL*/
+	border-collapse: collapse;
+	padding: 6px;
+	/*endregion BOX MODEL*/
+}
+/*#endregion TAG SELECTORS*/
+
+/*#region CLASS SELECTORS*/
+.ar-ae {
+	/*region BACKGROUND*/
+	background: url("../images/sprites/flags_sprite.png");
+	background-position: 0 100%;
+	background-size: 200% 200%;
+	/*endregion BACKGROUND*/
+
+	/*region DISPLAY AND VISIBILITY*/
+	opacity: .8;
+	transform: scale(1.2);
+	/*endregion DISPLAY AND VISIBILITY*/
+}
+
+.en-gb {
+	/*region BACKGROUND*/
+	background: url("../images/sprites/flags_sprite.png");
+	background-position: 100% 100%;
+	background-size: 200% 200%;
+	/*endregion BACKGROUND*/
+
+	/*region DISPLAY AND VISIBILITY*/
+	opacity: .8;
+	transform: scale(1.2);
+	/*endregion DISPLAY AND VISIBILITY*/
+}
+
+.fa-ir {
+	/*region BACKGROUND*/
+	background: url("../images/sprites/flags_sprite.png");
+	background-position: 100% 0;
+	background-size: 200% 200%;
+	/*endregion BACKGROUND*/
+
+	/*region DISPLAY AND VISIBILITY*/
+	opacity: .8;
+	transform: scale(1.2);
+	/*endregion DISPLAY AND VISIBILITY*/
+}
+
+.zh-cn {
+	/*region BACKGROUND*/
+	background: url("../images/sprites/flags_sprite.png");
+	background-position: 0 0;
+	background-size: 200% 200%;
+	/*endregion BACKGROUND*/
+
+	/*region DISPLAY AND VISIBILITY*/
+	opacity: .8;
+	transform: scale(1.2);
+	/*endregion DISPLAY AND VISIBILITY*/
+}
+
+.container {
+	/*region BOX MODEL*/
+	margin: 2px 0 0 2px;
+	/*endregion BOX MODEL*/
+}
+
+.digit {
+	/*region TYPOGRAPHY*/
+	font-weight: bold;
+	/*endregion TYPOGRAPHY*/
+
+	/*region BACKGROUND*/
+	background-color: #b0b9c2;
+	/*endregion BACKGROUND*/
+}
+
+.digit:hover:enabled {
+	/*region BACKGROUND*/
+	background-color: #c0c0c0;
+	/*endregion BACKGROUND*/
+}
+
+.equality {
+	/*region TYPOGRAPHY*/
+	font-size: 30px;
+	/*endregion TYPOGRAPHY*/
+
+	/*region BACKGROUND*/
+	background-color: #cd6f32;
+	/*endregion BACKGROUND*/
+}
+
+.language {
+	/*region BOX MODEL */
+	width: 160px;
+	height: 35px;
+	margin-left: 4px;
+	margin-top: 4px;
+	/*endregion BOX MODEL*/
+	
+	/*region DISPLAY AND VISIBILITY*/
+	display: inline-block;
+	/*endregion DISPLAY AND VISIBILITY*/
+	
+	/*region CLIPPING*/
+	overflow: hidden;
+	/*endregion CLIPPING*/
+}
+
+.language select{
+	/*region BOX MODEL*/
+	border: 0;
+	padding: 5px;
+	margin: -5px -20px -5px -5px;
+	/*endregion BOX MODEL*/
+	
+	/*region BACKGROUND*/
+	background-color: transparent;
+	/*endregion BACKGROUND*/
+}
+
+.language select option {
+	/*region BOX MODEL*/
+	width: 30px;
+	height: 20px;
+	margin-right: 5px;
+	/*endregion BOX MODEL*/
+	
+	/*region DISPLAY AND VISIBILITY*/
+	display: inline-block;
+	/*endregion DISPLAY AND VISIBILITY*/
+}
+
+.language select option:hover {
+	/*region BACKGROUND*/
+	cursor: pointer;
+	/*endregion BACKGROUND*/
+	
+	/*region DISPLAY AND VISIBILITY*/
+	transform: scale(1.4);
+	/*endregion DISPLAY AND VISIBILITY*/
+}
+
+/*.language select option:focus {
+	outline:0;
+}*/
+
+.logo {
+	/*region BOX MODEL*/
+	width: 150px;
+	height: 100px;
+	/*endregion BOX MODEL*/
+}
+
+.membar {
+	/*region BOX MODEL*/
+	height: 20px;
+	width: 200px;
+	border: 5px;
+	border-radius: 5px;
+	/*endregion BOX MODEL*/ 
+
+	/*region TYPOGRAPHY*/
+	text-align: right;
+	float: right;
+	font-size: 15px;
+	color: #f5fffa;
+	/*endregion TYPOGRAPHY*/
+}
+
+.memory-bar {
+	/*region BOX MODEL*/
+	margin-bottom: 3px;
+	margin-top: 3px;
+	/*endregion BOX MODEL*/
+	
+	/*region BACKGROUND*/
+	background-color: #b0b9c2;
+	/*endregion BACKGROUND*/
+}
+
+.point, .switch {
+	/*region BACKGROUND*/	
+	background-color: #b0b9c2;
+	/*endregion BACKGROUND*/
+}
+
+.sound-on {
+	/*region BOX MODEL*/
+	height: 35px;
+	margin-left: 60px;
+	/*endregion BOX MODEL*/
+	
+	/*region BACKGROUND*/
+	background: url("../images/sprites/sounds_sprite.png");
+	background-position: -15% 30%;
+	background-size: 150% 120%;
+	/*endregion BACKGROUND*/
+}
+
+.sound-off {
+	/*region BOX MODEL*/
+	height: 35px;
+	margin-left: 60px;
+	/*endregion BOX MODEL*/
+	
+	/*region BACKGROUND*/
+	background: url("../images/sprites/sounds_sprite.png");
+	background-position: 120% 30%;
+	background-size: 150% 120%;
+	/*endregion BACKGROUND*/
+}
+
+.relative {
+	/*region POSITION AND LAYOUT*/
+	position: relative;
+	margin: 5px;
+	/*endregion POSITION AND LAYOUT*/
+}
+
+.result {
+	/*region BOX MODEL*/
+	height: 60px;
+	width: 277px;
+	border: 0;
+	border-radius: 5px;
+	/*endregion BOX MODEL*/
+	
+	/*region TYPOGRAPHY*/
+	font-size: 25px;
+	text-align: right;
+	padding-right: 4px;
+	font-weight: bold;
+	/*endregion TYPOGRAPHY*/
+
+	/*region BACKGROUND*/
+	background-color: #f5fffa;
+	/*endregion BACKGROUND*/
+}
+
+.result:focus {
+	/*region BOX MODEL*/
+	outline: 0;
+	/*endregion BOX MODEL*/
+}
+/*endregion CLASS SELECTORS*/
